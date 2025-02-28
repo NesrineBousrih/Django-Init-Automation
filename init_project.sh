@@ -22,7 +22,7 @@ FIELDS=("$@")  # Remaining arguments are fields
 # Step 1: Clone the repository if not exists
 if [ ! -d "$PROJECT_DIR" ]; then
     echo "Cloning Django project template..."
-    git clone https://github.com/ahmedhamila/Django-Init-Automation.git
+    git clone https://github.com/NesrineBousrih/Django-Init-Automation.git
 fi
 
 # Step 2: Navigate into project
